@@ -14,6 +14,7 @@ public class Square extends Shape {
         this.side = side;
     }
 
+
     @Override
     public double calculateArea() {
         return side * side;
