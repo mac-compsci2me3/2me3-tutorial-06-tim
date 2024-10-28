@@ -5,11 +5,11 @@ public class Client {
         Shape circle = new Circle("Blue", 3.0);
 
         // Uncomment the following after implementing your drawing class
-        // // Retrieve the stance of drawing
-        // Drawing drawing = Drawing.getInstance();
+         // Retrieve the stance of drawing
+         Drawing drawing = Drawing.getInstance();
 
-        // // Draw shapes on the instances
-        // drawing.drawShape(square);
-        // drawing.drawShape(circle);
+         // Draw shapes on the instances
+         drawing.drawShape(square);
+         drawing.drawShape(circle);
     }
 }
